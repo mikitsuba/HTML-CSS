@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+* {
+  box-sizing: border-box;
+}
 
 ul, li,
 p, div {
@@ -322,26 +325,16 @@ ul li a:hover{
   position: absolute;
 }
 
-.card{
-  display:inline-block;
-  width:  100%;
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
-  overflow: hidden;
-}
-
-.card li ul{
-  display: inline-block;
+.card {
   text-align: center;
 }
 
 .card1,.card2,.card3,.card4{
+  display: inline-block;
   width: 300px;
   height: 400px;
   background: white;
   border-radius: 8px;
-  float: left;
   margin: 1% 2%;
 }
 
