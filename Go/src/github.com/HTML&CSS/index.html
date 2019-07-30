@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>グループワーク</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="toplogo">
+        <img src="img/logo.png" >
+      </div>
+      <div class="topleft">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">access</a></li>
+        </ul>
+        <p class="block">floatでliを横並び aタグをdisplay:block</p>
+      </div>
+
+      <div class="topright">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">access</a></li>
+        </ul>
+        <p class="inlinblock">liをinline-blockで横並び　aはinlineのままなのでクリック範囲が違う</p>
+     </div>
+  </div>
+
+  <div class="main">
+    <div class="yesorno"><!--/*②YESorNO-->
+      <p class="question">ポートフォリオの準備は<br>できていますか？</p>
+      <div class="btn">
+        <div class="yes"><p>YES<br>buttonで作成</p></div>
+        <div class="no"><p>NO<br>buttonで作成</p></div>
+      </div>
+    </div>
+  </div><!--YESorNO終わり-->
+
+　　<div class="position">
+     <div class=”coment”>
+        <p class="positionmozi">
+          <span class="h1">postionの使い方</span><br>
+          横の丸の画像の上にテキストのBOXが被さっています。<br>
+          positionは右上が起点となり、主に要素からはみ出したり、被せたい時に使います。<br>
+          親要素にrelativeを書くとそこが起点になります。<br>
+          子要素にabsoluteを書くと親要素からが起点になります。<br>
+          基本的にrelativeとabsoluteはセットで使いましょう。</p>
+        <img src="img/position1.png">
+     </div>
+    </div>
+
+   <div class="card">
+       <div class="card1"><li><img src="img/card4-item1.jpg"><p class="1">カード風に作りました</p><a class="good1" href="#">good</a><a class="bad1" href="#">bad</a></li></div>
+       <div class="card2"><li><img src="img/card4-item2.jpg"><p class="2">カード風に作りました</p><a class="good2" href="#">good</a><a class="bad2" href="#">bad</a></li></div>
+       <div class="card3"><li><img src="img/card4-item3.jpg"><p class="3">カード風に作りました</p><a class="good3" href="#">good</a><a class="bad3" href="#">bad</a></li></div>
+       <div class="card4"><li><img src="img/card4-item4.jpg"><p class="4">カード風に作りました</p><a class="good4" href="#">good</a><a class="bad4" href="#">bad</a></li></div>
+   </div>
+
+  <div class="bottommenu">
+
+   <div class="company">
+     <h1>会社概要</h1>
+     <table>
+      <tbody>
+        <tr>
+            <th>社名</th>
+            <td>株式会社○△□</td>
+        </tr>
+        <tr>
+            <th>所在地</th>
+            <td>恵比寿</td>
+        </tr>
+        <tr>
+            <th>代表取締役</th>
+            <td>○△□</td>
+        </tr>
+        <tr>
+            <th>設立</th>
+            <td>2XXX年</td>
+        </tr>
+        <tr>
+            <th>事業内容</th>
+            <td>youtuber</td>
+        </tr>
+        <tr>
+            <th>連絡先</th>
+            <td>123-4567-8910</td>
+        </tr>
+        <tr>
+            <th>アクセス</th>
+            <td>恵比寿駅から徒歩１０分</td>
+        </tr>
+
+      </tbody>
+     </table>
+   </div>
+
+   <div class="rightnews">
+     <h1>ニュース</h1>
+     <div class="scloll">
+      <ul>
+        <li><p>記事1</p></li>
+        <li><p>記事2</p></li>
+        <li><p>記事3</p></li>
+        <li><p>記事4</p></li>
+        <li><p>記事5</p></li>
+        <li><p>記事6</p></li>
+        <li><p>記事7</p></li>
+        <li><p>記事8</p></li>
+        <li><p>記事9</p></li>
+        <li><p>記事10</p></li>
+      </ul>
+    </div>
+  </div>
+
+   <div class="mail">
+     <h1>お問い合わせ</h1>
+     <form action="cgi-bin/abc.cgi" method="post">
+    <p><label>名前:<input type="email" name="email" size="30" maxlength="40"></label></p>
+    </form>
+   </div>
+
+　<div class="radio">
+  <p>性別:<input type="radio" name="fruits" value="1" id="apple">男<input type="radio" name="fruits" value="2" id="pineapple">女</p>
+  </div>
+
+  <div class="sentaku">
+   <div class="sentakuall">血液型:
+    <div class="selectWrap">
+      <select class="select" name="" id="">
+        <option value="">A型</option>
+        <option value="">B型</option>
+        <option value="">O型</option>
+        <option value="">AB型</option>
+      </select>
+      </div>
+ 　  </div>
+　  </div>
+  <div class="comentran">
+    <textarea name="kanso" rows="4" cols="40" >inputタグではボタンの大きさとか変えれない</textarea>
+  </div>
+  <div class="lastbtn">
+    <p><<input type="submit" value="送信">
+    <input type="submit" value="リセット"></p>
+  </div>
+
+</div>
+
+<div class="foot">
+  <footer>
+    <p>&copy; sample crowd 2019 All Rights Reserved.</p>
+  </footer>
+</div>
+
+
+
+  </body>
+</html>
